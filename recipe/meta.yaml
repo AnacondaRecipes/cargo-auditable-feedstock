@@ -1,5 +1,5 @@
 {% set name = "cargo-auditable" %}
-{% set version = "0.7.0" %}
+{% set version = "0.7.5" %}
 
 package:
   name: {{ name }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/rust-secure-code/{{ name }}/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: d2b81a7da3cb6c03d8cd977c36dc9adf7f2a3a587ce7c35c8e97ced5a9c83334
+  sha256: 8e6566cf51444f6f6d10230e62487979fa79247fe027d0a8acafaa88e6af0fd7
 
 build:
   number: 0
