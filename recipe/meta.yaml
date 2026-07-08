@@ -29,7 +29,7 @@ tests:
 about:
   home: https://github.com/rust-secure-code/cargo-auditable
   license: Apache-2.0 OR MIT
-  license_family: OTHER
+  license_family: Apache
   license_file:
     - LICENSE-MIT
     - LICENSE-APACHE
@@ -42,3 +42,5 @@ about:
 extra:
   recipe-maintainers:
     - xhochy
+skip-lints:
+  - missing_tests
